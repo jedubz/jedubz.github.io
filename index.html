@@ -15,11 +15,13 @@
       <div class="top">
         <!-- Logo -->
         <div id="logo">
-          <span class="image avatar48"
-            ><img src="images/pfp.jpg" alt=""
-          /></span>
-          <h1 id="title">Jamie Weathers</h1>
-          <p>Software Engineer</p>
+          <div style="clear: both">
+            <h1 style="float: left">Jamie Weathers</h1>
+            <p style="float: right">(he/him)</p>
+          </div>
+          <div class="card subheading" style="float: left">
+            Software Engineer
+          </div>
         </div>
 
         <!-- Nav -->
@@ -37,14 +39,14 @@
             </li>
             <li>
               <a href="#about" id="about-link"
-                ><span class="icon solid fa-user">About Me</span></a
+                ><span class="icon solid fa-graduation-cap"
+                  >Qualifications</span
+                ></a
               >
             </li>
             <li>
               <a href="#about" id="about-link"
-                ><span class="icon solid fa-graduation-cap"
-                  >Qualifications</span
-                ></a
+                ><span class="icon solid fa-user">About Me</span></a
               >
             </li>
           </ul>
@@ -71,25 +73,28 @@
       <!-- Intro -->
       <section id="top" class="one dark cover">
         <div class="container">
-          <header>
-            <h2 class="alt">Current activities</h2>
-            <p>
-              Working towards the
-              <strong>AWS Cloud Practitioner</strong> Certification<br />
-              <br />
-              Solving at least one coding challenge every day. <br />
-              Check out my <strong>daily-coding-problem</strong> repository
-              below for solutions!
-            </p>
-          </header>
+          <!-- Blur Image: https://www.w3schools.com/howto/howto_css_blurred_background.asp -->
+          <div>
+            <header>
+              <h2 class="alt">Current activities</h2>
+              <p>
+                Working towards the
+                <strong>AWS Cloud Practitioner</strong> Certification<br />
+                <br />
+                Solving at least one coding challenge every day. <br />
+                Check out my <strong>daily-coding-problem</strong> repository
+                below for solutions!
+              </p>
+            </header>
 
-          <footer>
-            <a
-              href="https://github.com/jedubz/daily-coding-problem"
-              class="button scrolly"
-              >daily-coding-problem</a
-            >
-          </footer>
+            <footer>
+              <a
+                href="https://github.com/jedubz/daily-coding-problem"
+                class="button scrolly"
+                >daily-coding-problem</a
+              >
+            </footer>
+          </div>
         </div>
       </section>
 
@@ -166,16 +171,12 @@
         </div>
       </section>
 
-      <!-- About Me -->
+      <!-- Qualifications -->
       <section id="about" class="three">
         <div class="container">
           <header>
-            <h2>About Me</h2>
+            <h2>Qualifications</h2>
           </header>
-
-          <a href="#" class="image featured"
-            ><img src="images/pic08.jpg" alt=""
-          /></a>
 
           <p>
             Tincidunt eu elit diam magnis pretium accumsan etiam id urna.
@@ -188,12 +189,16 @@
         </div>
       </section>
 
-      <!-- Qualifications -->
+      <!-- About Me -->
       <section id="about" class="three">
         <div class="container">
           <header>
-            <h2>Qualifications</h2>
+            <h2>About Me</h2>
           </header>
+
+          <a href="#" class="image featured"
+            ><img src="images/pic08.jpg" alt=""
+          /></a>
 
           <p>
             Tincidunt eu elit diam magnis pretium accumsan etiam id urna.
