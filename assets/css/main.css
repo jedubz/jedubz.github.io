@@ -1867,6 +1867,23 @@ article:last-child {
   height: 48px;
 }
 
+.image.avatar256 {
+  width: 256px;
+  height: 256px;
+}
+
+.image.avatar256 img {
+  width: 256px;
+  height: 256px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 .image.fit {
   display: block;
   width: 100%;
@@ -2295,7 +2312,7 @@ button:active,
 #footer {
   margin-left: 375px;
   text-align: center;
-  background-color: #dce3e2;
+  background-color: #222629;
   padding: 3em 0 4em 0;
   box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05),
     inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
