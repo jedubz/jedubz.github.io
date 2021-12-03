@@ -2372,7 +2372,7 @@ button:active,
 
 #main > section.one {
   background-color: #81918e;
-  background-image: url('../../images/activities_keyboard.jpg');
+  /*background-image: url('../../images/activities_keyboard.jpg');*/
 }
 
 #main > section.two {
